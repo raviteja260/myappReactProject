@@ -1,0 +1,30 @@
+.incidentCard{
+    background-color:  #f4e1e1;
+    width: 200px;
+    height: 200px;
+    /* color: whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: sans-serif;
+    /* text-shadow: gray 2px 2px 3px; */
+    box-shadow: black 2px 2px 5px;
+}
+
+.incidentCard button{
+    margin-top: 10px ;
+    width: 100px;
+    height: 30px;
+    /* background-color: rgb(241, 97, 97); */
+    /* border: none; */
+
+    background-color: rgb(241, 97, 97);
+    border: none;
+
+    border-radius: 30px;
+    font-size: larger;
+    padding-bottom: 10px;
+}

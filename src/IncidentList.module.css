@@ -1,0 +1,30 @@
+.incidentList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    /* padding: 20px; */
+ 
+}
+
+.incidentList form{
+ width: 100%;
+ margin: 0px;
+ padding: 0px;
+ background-color: #f4e1e1;
+ height: 30px;
+ display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.incidentList form button{
+    width: 80px;
+    height: 25px;
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
